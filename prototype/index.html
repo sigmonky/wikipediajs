@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8" />
+  <title>Wikipedia JS</title>
+   
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap-combined.min.css" />
+  <style type="text/css">
+    textarea {
+      height: 300px;
+      width: 90%;
+    }
+    
+    .content {
+      margin-top: 20px;
+    }
+
+    img.thumbnail {
+      float: right;
+    }
+
+    .clear {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content container">
+
+    <div>
+
+     
+    </div>
+
+    <div class="loading" style="display: none;">
+      <strong>Loading</strong> <img src="http://assets.okfn.org/images/icons/ajaxload-circle.gif" />
+    </div>
+
+    <div class="results" style="display: none;">
+      <div class="summary well">
+        <img src="" class="thumbnail" />
+        <h4>
+          <span class="title"></span>
+        </h4>
+        <p>
+          Type: <span class="type"></span>
+          <br />
+          Location: <span class="place"></span>
+          <br />
+          Dates: <span class="start"></span> &mdash; <span class="end"></span>
+        </p>
+        <p class="description"></p>
+        <div class="clear"></div>
+      </div>
+      
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="wikipedia.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
